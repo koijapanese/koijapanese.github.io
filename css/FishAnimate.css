@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -webkit-touch-callout:none;
+}
+#mainHolder{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size:15px;
+     text-align:center;
+     width:100%;
+     height:auto;
+     position:absolute;
+	top: 0px;
+     pointer-events: none;
+}
+.contentWrapper{
+    width:80%;
+     max-width:600px;
+     margin:5% auto;
+}
+#canvasHolder{
+    width:100%;
+     height:100%;
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+}
+.ignorePadding{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+@-webkit-viewport{
+    width:device-width
+}
+@-moz-viewport{
+    width:device-width
+}
+@-ms-viewport{
+    width:device-width
+}
+@-o-viewport{
+    width:device-width
+}
+@viewport{
+    width:device-width
+}
+
